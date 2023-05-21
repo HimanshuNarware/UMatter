@@ -36,11 +36,7 @@ const SignIn = () => {
               <FormLabel htmlFor="for">Email</FormLabel>
               <FormInput placeholder="email@example.com" type="email" require />
               <FormLabel htmlFor="for">Password</FormLabel>
-              <FormInput
-                placeholder="Must have at least 8 characters"
-                type={passwordType}
-                require
-              />
+              <FormInput placeholder="Must have at least 8 characters" type={passwordType} require />
               <button
                 onClick={handleclick}
                 style={{
